@@ -821,7 +821,7 @@
 		stop : function(){
 			// Stops any current animation loop occuring
 			if(this.animationFrame){
-				helpers.cancelAnimFrame.call(root, this.animationFrame);
+				helpers.cancelAnimFrame.call(window, this.animationFrame);
 			}
 			return this;
 		},
